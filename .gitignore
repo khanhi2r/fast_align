@@ -14,3 +14,6 @@ build/
 *.lai
 *.la
 *.a
+
+data
+db
