@@ -43,11 +43,11 @@ with open(codeswitch_path, "w") as f:
         for index in range(len(line2_degree_list)):
             if line2_degree_list[index] == 1:
                 line2_degree1_index_list.append(index)
-        
-        
         random.shuffle(line2_degree1_index_list)
         line2_degree1_index_list = line2_degree1_index_list[:int(len(line2) * 0.2)] # take at most 20% of line2
 
+        if len(line2_degree1_index_list) == 0:
+            continue
         line_out = [*line2] # copy line2
         for j in line2_degree1_index_list:
             i = line2_edge_list[j]
