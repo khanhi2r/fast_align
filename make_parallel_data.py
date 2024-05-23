@@ -1,6 +1,8 @@
 import os
 from local.util import read_table
 from local.clean_text import clean_line
+from tqdm import tqdm
+
 
 bm_text_path_list = [
     "/home/khanh/ws/rw_10_2_56_217/scripts/db/english_to_malay_text_0",
