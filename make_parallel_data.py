@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 
 bm_text_path_list = [
-    "/home/khanh/ws/rw_10_2_56_142/scripts/db/english_to_malay_text_mesolitica_malayprompt",
+    "/home/khanh/ws/rw_10_2_56_142/scripts/db/translation_mesoliticasmallv2",
 ]
 
 en_text_path_list = [
